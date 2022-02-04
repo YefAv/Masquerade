@@ -3,10 +3,14 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerMovemnt : MonoBehaviour
-{
+{ 
     CharacterController chController;
-    public float movementSpeed;
+    public float movementSpeed; // m/s
     float ActualSpeed;
+
+    bool IsGrounded;
+    float jumpForce = 0.038f;
+    float movementY;
 
     private void Start()
     {
@@ -31,13 +35,24 @@ public class PlayerMovemnt : MonoBehaviour
 
     void PlayerMovement()
     {
-        float horiInput = Input.GetAxisRaw("Horizontal") * movementSpeed * Time.deltaTime;
-        float vertInput = Input.GetAxisRaw("Vertical") * movementSpeed * Time.deltaTime;
+        float horiInput = Input.GetAxisRaw("Horizontal");
+        float vertInput = Input.GetAxisRaw("Vertical"); 
 
         Vector3 forwardMovement = transform.forward * vertInput;
         Vector3 rightMovement = transform.right * horiInput;
 
-        chController.SimpleMove(forwardMovement + rightMovement);
-    }
+        //Vector3.up* jumpForce;
 
+        Vector3 totalMovement = (forwardMovement + rightMovement).normalized * movementSpeed * Time.deltaTime;
+
+        if(Input.GetButtonDown("Jump") && chController.isGrounded)
+        {
+            movementY = jumpForce;
+        }
+        movementY -= 0.118f * Time.deltaTime;
+        totalMovement.y = movementY;
+
+        chController.Move(totalMovement);
+        //Debug.Log(totalMovement);
+    }
 }
