@@ -1,4 +1,0 @@
-repository "MasqueradeV2@PassionFruitT7@cloud"
-  path "/"
-    br "/main"
-    co "/main"
