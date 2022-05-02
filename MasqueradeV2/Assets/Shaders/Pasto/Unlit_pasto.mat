@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Unlit_pasto
+  m_Shader: {fileID: 4800000, guid: 284985e833364e748aa0f1a8817ec501, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 1
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BladeTexture:
+        m_Texture: {fileID: 2800000, guid: 360dcbfeba0eac84799eafa8981b2423, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _GrassMap:
+        m_Texture: {fileID: 2800000, guid: 6d843da5bc977d447bb12fdc6ea5b9fb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WindMap:
+        m_Texture: {fileID: 2800000, guid: f7105f7c89e397944aa7e0c5c3a449f0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BendDelta: 0.904
+    - _BladeBendCurve: 2
+    - _BladeBendDistance: 0.38
+    - _BladeHeightMax: 1.2
+    - _BladeHeightMin: 0.44
+    - _BladeSegments: 3
+    - _BladeWidthMax: 0.05
+    - _BladeWidthMin: 0.02
+    - _GrassFalloff: 0.05
+    - _GrassThreshold: 0.5
+    - _TessellationGrassDistance: 1.44
+    - _WindFrequency: 0.01
+    m_Colors:
+    - _BaseColor: {r: 0.07458379, g: 0.5943396, b: 0, a: 1}
+    - _TipColor: {r: 0.8301887, g: 0.81074476, b: 0.05873976, a: 1}
+    - _WindVelocity: {r: 1, g: 0, b: 0, a: 0}
