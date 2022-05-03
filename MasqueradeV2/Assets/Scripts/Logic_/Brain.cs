@@ -6,11 +6,11 @@ using UnityEngine;
 public class Brain : MonoBehaviour
 {
     public bool tiempoNormal;
-
+    public static Brain _brain;
     
     #region Singleton
-    public static Brain _brain;
-    private void Awake()
+    
+    /*private void Awake()
     {
         if (_brain != null)
         {
@@ -21,8 +21,8 @@ public class Brain : MonoBehaviour
             _brain = this;
         }
 
-        SaveTrigger.saveTrigger.saveData.day = 4; // esto es temporal
-    }
+        //SaveTrigger.saveTrigger.saveData.day = 4; // esto es temporal
+    }*/
     #endregion
 
     public enum EstadosDeJuego
@@ -44,13 +44,17 @@ public class Brain : MonoBehaviour
 
     private void Start()
     {
+        _brain = this;
+        
         if (SaveTrigger.saveTrigger.saveData.day >= 1)
         {
             estado = EstadosDeJuego.normal;
             FungusReactions.fungusCode.tpToStart();
+            Debug.Log("mi perro si estoy X2");
         }
         else
         {
+            Debug.Log("mi perro si estoy");
             estado = EstadosDeJuego.tutorial; // o cinemática
             FungusReactions.fungusCode.PlayAnimaticOneTime();
             //Correr cinemática y al terminar dialogo fungus

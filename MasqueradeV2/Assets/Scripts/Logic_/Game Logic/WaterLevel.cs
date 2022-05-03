@@ -11,7 +11,7 @@ public class WaterLevel : MonoBehaviour
     
     private void Update()
     {
-        if (TimeSystem.timeSyst.runningTime)
+        if (TimeSysN.timeSys.tiempoCorriendo)
         {
             gameObject.transform.position=Vector3.Lerp(gameObject.transform.position,levelOfWater[0].position, inteRatio);
         }

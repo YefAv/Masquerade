@@ -2434,7 +2434,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &158616694
 Transform:
   m_ObjectHideFlags: 0
@@ -2580,7 +2580,7 @@ Transform:
   m_Children:
   - {fileID: 446921340}
   m_Father: {fileID: 1580914515}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &178710300
 MonoBehaviour:
@@ -3045,12 +3045,6 @@ MonoBehaviour:
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: "Mec\xE1nico con Mascara de Rat\xF3n"
---- !u!1 &223345306 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6932887643271380875, guid: 5a3e63c37f9c01b49a0ff19e76feec6e,
-    type: 3}
-  m_PrefabInstance: {fileID: 6269876666519799872}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &236572228
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3465,7 +3459,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1580914515}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &253286769
 GameObject:
@@ -4848,7 +4842,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 608.3133
     y: 79.9243
-    width: 187
+    width: 190.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5006,7 +5000,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 125.63956
     y: 69.70304
-    width: 198
+    width: 202
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5042,7 +5036,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 365.26614
     y: 80.29589
-    width: 126
+    width: 128.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -5086,9 +5080,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 260978177}
+  - {fileID: 260978193}
   selectedCommands:
-  - {fileID: 260978205}
+  - {fileID: 260978204}
   variables: []
   description: 
   stepPause: 0
@@ -5115,7 +5109,7 @@ MonoBehaviour:
   itemId: 142
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -5143,7 +5137,7 @@ MonoBehaviour:
   itemId: 141
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -5171,7 +5165,7 @@ MonoBehaviour:
   itemId: 140
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -5199,7 +5193,7 @@ MonoBehaviour:
   itemId: 139
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -5227,7 +5221,7 @@ MonoBehaviour:
   itemId: 138
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -5255,7 +5249,7 @@ MonoBehaviour:
   itemId: 137
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -5283,7 +5277,7 @@ MonoBehaviour:
   itemId: 136
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -5311,7 +5305,7 @@ MonoBehaviour:
   itemId: 135
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -5339,7 +5333,7 @@ MonoBehaviour:
   itemId: 134
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -5354,7 +5348,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &260978205
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5384,7 +5378,7 @@ MonoBehaviour:
     floatVal: 0
 --- !u!114 &260978206
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5414,7 +5408,7 @@ MonoBehaviour:
     floatVal: 0
 --- !u!114 &260978207
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5444,7 +5438,7 @@ MonoBehaviour:
     floatVal: 0
 --- !u!114 &260978208
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5474,7 +5468,7 @@ MonoBehaviour:
     floatVal: 0
 --- !u!114 &260978209
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5504,7 +5498,7 @@ MonoBehaviour:
     floatVal: 0
 --- !u!114 &260978210
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5534,7 +5528,7 @@ MonoBehaviour:
     floatVal: 0
 --- !u!114 &260978211
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5564,7 +5558,7 @@ MonoBehaviour:
     floatVal: 0
 --- !u!114 &260978212
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -5594,7 +5588,7 @@ MonoBehaviour:
     floatVal: 0
 --- !u!114 &260978213
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -7350,7 +7344,7 @@ MonoBehaviour:
   itemId: 19
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: WinConditionTemp, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -10464,9 +10458,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 415277118}
+  - {fileID: 415277132}
   selectedCommands:
-  - {fileID: 415277152}
+  - {fileID: 415277153}
   variables: []
   description: 
   stepPause: 0
@@ -10493,7 +10487,7 @@ MonoBehaviour:
   itemId: 143
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -10521,7 +10515,7 @@ MonoBehaviour:
   itemId: 142
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -10549,7 +10543,7 @@ MonoBehaviour:
   itemId: 141
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -10577,7 +10571,7 @@ MonoBehaviour:
   itemId: 140
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -10605,7 +10599,7 @@ MonoBehaviour:
   itemId: 139
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -10633,7 +10627,7 @@ MonoBehaviour:
   itemId: 138
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -10661,7 +10655,7 @@ MonoBehaviour:
   itemId: 137
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -10689,7 +10683,7 @@ MonoBehaviour:
   itemId: 136
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -10717,7 +10711,7 @@ MonoBehaviour:
   itemId: 135
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -10745,7 +10739,7 @@ MonoBehaviour:
   itemId: 134
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -12247,7 +12241,7 @@ Transform:
   - {fileID: 766019468}
   - {fileID: 921521533}
   m_Father: {fileID: 1580914515}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: -34.546, z: 0}
 --- !u!114 &462128586
 MonoBehaviour:
@@ -12751,7 +12745,7 @@ MonoBehaviour:
   itemId: 134
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 1199205313}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -12793,7 +12787,7 @@ MonoBehaviour:
   itemId: 126
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 1199205313}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -13569,7 +13563,7 @@ MonoBehaviour:
   itemId: 151
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 1199205313}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -14748,8 +14742,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 474949213}
-  selectedCommands: []
+  - {fileID: 474949231}
+  selectedCommands:
+  - {fileID: 474949301}
   variables: []
   description: 
   stepPause: 0
@@ -14776,7 +14771,7 @@ MonoBehaviour:
   itemId: 142
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 1199205313}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -14819,7 +14814,7 @@ MonoBehaviour:
   itemId: 141
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 1199205313}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -14847,7 +14842,7 @@ MonoBehaviour:
   itemId: 140
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 1199205313}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -14875,7 +14870,7 @@ MonoBehaviour:
   itemId: 139
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 1199205313}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -14903,7 +14898,7 @@ MonoBehaviour:
   itemId: 138
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 1199205313}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -14931,7 +14926,7 @@ MonoBehaviour:
   itemId: 137
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 1199205313}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -14959,7 +14954,7 @@ MonoBehaviour:
   itemId: 136
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 1199205313}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -14987,7 +14982,7 @@ MonoBehaviour:
   itemId: 135
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 1199205313}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -15015,7 +15010,7 @@ MonoBehaviour:
   itemId: 133
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 1199205313}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -15888,7 +15883,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &517755388
 Transform:
   m_ObjectHideFlags: 0
@@ -19507,7 +19502,7 @@ MonoBehaviour:
   itemId: 142
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -19535,7 +19530,7 @@ MonoBehaviour:
   itemId: 141
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -19563,7 +19558,7 @@ MonoBehaviour:
   itemId: 140
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -19591,7 +19586,7 @@ MonoBehaviour:
   itemId: 139
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -19619,7 +19614,7 @@ MonoBehaviour:
   itemId: 138
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -19647,7 +19642,7 @@ MonoBehaviour:
   itemId: 137
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -19675,7 +19670,7 @@ MonoBehaviour:
   itemId: 136
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -19703,7 +19698,7 @@ MonoBehaviour:
   itemId: 135
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -19731,7 +19726,7 @@ MonoBehaviour:
   itemId: 134
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -20376,7 +20371,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 1588050198}
+  selectedFlowchart: {fileID: 474949300}
 --- !u!4 &602568057
 Transform:
   m_ObjectHideFlags: 1
@@ -23073,12 +23068,6 @@ MonoBehaviour:
   flattenMode: 0
   flattenSpace: 0
   destroyAfterFlatten: 1
---- !u!1 &725466850 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6932887642936599782, guid: 5a3e63c37f9c01b49a0ff19e76feec6e,
-    type: 3}
-  m_PrefabInstance: {fileID: 6269876666519799872}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &726529066
 GameObject:
   m_ObjectHideFlags: 0
@@ -25740,7 +25729,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1580914515}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &852842878
 PrefabInstance:
@@ -27207,7 +27196,7 @@ Transform:
   m_LocalScale: {x: 12.820882, y: 6.1438, z: 6.1438003}
   m_Children: []
   m_Father: {fileID: 1580914515}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 42.664, z: 0}
 --- !u!1 &929050680
 GameObject:
@@ -29431,7 +29420,7 @@ MonoBehaviour:
   itemId: 224
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -29459,7 +29448,7 @@ MonoBehaviour:
   itemId: 223
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -29487,7 +29476,7 @@ MonoBehaviour:
   itemId: 222
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -30111,7 +30100,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &963557754
 Transform:
   m_ObjectHideFlags: 0
@@ -32216,7 +32205,7 @@ MonoBehaviour:
   itemId: 143
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -32244,7 +32233,7 @@ MonoBehaviour:
   itemId: 142
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -32272,7 +32261,7 @@ MonoBehaviour:
   itemId: 141
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -32300,7 +32289,7 @@ MonoBehaviour:
   itemId: 140
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -32328,7 +32317,7 @@ MonoBehaviour:
   itemId: 139
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -32356,7 +32345,7 @@ MonoBehaviour:
   itemId: 138
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -32384,7 +32373,7 @@ MonoBehaviour:
   itemId: 137
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -32412,7 +32401,7 @@ MonoBehaviour:
   itemId: 136
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -32440,7 +32429,7 @@ MonoBehaviour:
   itemId: 135
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -32468,7 +32457,7 @@ MonoBehaviour:
   itemId: 134
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -34232,7 +34221,7 @@ MonoBehaviour:
   itemId: 142
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -34260,7 +34249,7 @@ MonoBehaviour:
   itemId: 141
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -34288,7 +34277,7 @@ MonoBehaviour:
   itemId: 140
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -34316,7 +34305,7 @@ MonoBehaviour:
   itemId: 139
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -34344,7 +34333,7 @@ MonoBehaviour:
   itemId: 138
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -34372,7 +34361,7 @@ MonoBehaviour:
   itemId: 137
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -34400,7 +34389,7 @@ MonoBehaviour:
   itemId: 136
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -34428,7 +34417,7 @@ MonoBehaviour:
   itemId: 135
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -34456,7 +34445,7 @@ MonoBehaviour:
   itemId: 134
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -35270,7 +35259,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1038408433
 Transform:
   m_ObjectHideFlags: 0
@@ -35468,7 +35457,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1051649285
 Transform:
   m_ObjectHideFlags: 0
@@ -39590,7 +39579,7 @@ MonoBehaviour:
   itemId: 156
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -39618,7 +39607,7 @@ MonoBehaviour:
   itemId: 155
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -39646,7 +39635,7 @@ MonoBehaviour:
   itemId: 154
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -39674,7 +39663,7 @@ MonoBehaviour:
   itemId: 153
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -39702,7 +39691,7 @@ MonoBehaviour:
   itemId: 152
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -39730,7 +39719,7 @@ MonoBehaviour:
   itemId: 151
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -39758,7 +39747,7 @@ MonoBehaviour:
   itemId: 150
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -39786,7 +39775,7 @@ MonoBehaviour:
   itemId: 149
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -39814,7 +39803,7 @@ MonoBehaviour:
   itemId: 148
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -39842,7 +39831,7 @@ MonoBehaviour:
   itemId: 147
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -39870,7 +39859,7 @@ MonoBehaviour:
   itemId: 146
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -40663,6 +40652,7 @@ GameObject:
   - component: {fileID: 1199205315}
   - component: {fileID: 1199205317}
   - component: {fileID: 1199205318}
+  - component: {fileID: 1199205319}
   m_Layer: 0
   m_Name: NEW BRAIN
   m_TagString: Untagged
@@ -40749,6 +40739,24 @@ MonoBehaviour:
   videoCanvas: {fileID: 1936626247}
   musicAudSource: {fileID: 267252607}
   diarioCanv: {fileID: 1183976290}
+--- !u!114 &1199205319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1199205313}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 423d03fd2b3902e4ebab7d2f51a773a6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DirectionalLight: {fileID: 1194984588}
+  Preset: {fileID: 11400000, guid: 90c3c66ae35e3b840be125e2619555e4, type: 2}
+  skyBox: {fileID: 2100000, guid: 1cf6f4c6e6e0518419839d3f5448dd99, type: 2}
+  startHour: 5
+  endtHour: 27
+  gameHour: 5.4545455
 --- !u!1 &1204304224
 GameObject:
   m_ObjectHideFlags: 0
@@ -43292,212 +43300,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1362738135}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1369072798
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1369072801}
-  - component: {fileID: 1369072800}
-  - component: {fileID: 1369072804}
-  - component: {fileID: 1369072799}
-  - component: {fileID: 1369072802}
-  - component: {fileID: 1369072803}
-  m_Layer: 0
-  m_Name: ==BRAIN==
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!82 &1369072799
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1369072798}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 2c4f5f17710e0c140bd8c2ab4521226a, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0.15
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
---- !u!114 &1369072800
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1369072798}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 888963c5bd0f61f42beea9bf1109aa9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeNum: 0
-  runningTime: 0
-  timeBell: 0
-  loopDuration: 100
-  day_: 1
-  saveData: {fileID: 345059952}
-  vidPlayerEnd: {fileID: 1006437060}
-  vidCanvas: {fileID: 140370862}
-  bellCamera: {fileID: 536560839}
-  _bellRingAnim: {fileID: 708735303}
-  reset_: 0
-  elQueDejeEstoEnBuildEsTombo: 0
---- !u!4 &1369072801
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1369072798}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.5, y: -42.7, z: 47.7}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1580914515}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1369072802
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1369072798}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b381d67aa13ee604e9a7a2b103393119, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 462128577}
-  spawn: {fileID: 1737878421}
-  savedDataCode: {fileID: 345059952}
-  _videoPlayer: {fileID: 412696676}
-  videoCanvas: {fileID: 1936626247}
-  musicAudSource: {fileID: 267252607}
-  diarioCanv: {fileID: 1183976290}
---- !u!114 &1369072803
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1369072798}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 95bafee3be158324e8b9219a8a3f48b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  caronte: {fileID: 223345306}
-  caronteFungus: {fileID: 725466850}
---- !u!114 &1369072804
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1369072798}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 423d03fd2b3902e4ebab7d2f51a773a6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  DirectionalLight: {fileID: 1194984588}
-  Preset: {fileID: 11400000, guid: 90c3c66ae35e3b840be125e2619555e4, type: 2}
-  skyBox: {fileID: 2100000, guid: 1cf6f4c6e6e0518419839d3f5448dd99, type: 2}
-  startHour: 5
-  endtHour: 27
-  gameHour: 5.4545455
 --- !u!1 &1374035748
 GameObject:
   m_ObjectHideFlags: 0
@@ -44152,7 +43954,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1431554987
 Transform:
   m_ObjectHideFlags: 0
@@ -46350,7 +46152,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1536494625
 Transform:
   m_ObjectHideFlags: 0
@@ -46709,7 +46511,7 @@ MonoBehaviour:
   itemId: 141
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -46751,7 +46553,7 @@ MonoBehaviour:
   itemId: 139
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -46793,7 +46595,7 @@ MonoBehaviour:
   itemId: 137
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -46849,7 +46651,7 @@ MonoBehaviour:
   itemId: 134
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -47231,7 +47033,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1553813670
 Transform:
   m_ObjectHideFlags: 0
@@ -47586,7 +47388,6 @@ Transform:
   m_Children:
   - {fileID: 1065078546}
   - {fileID: 1199205314}
-  - {fileID: 1369072801}
   - {fileID: 462128585}
   - {fileID: 1626339624}
   - {fileID: 1737878421}
@@ -47837,7 +47638,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1588050186
 Transform:
   m_ObjectHideFlags: 0
@@ -48194,7 +47995,7 @@ MonoBehaviour:
   itemId: 138
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -48236,7 +48037,7 @@ MonoBehaviour:
   itemId: 136
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -48308,7 +48109,7 @@ MonoBehaviour:
   itemId: 140
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -49157,7 +48958,7 @@ Transform:
   - {fileID: 2137109472}
   - {fileID: 1769102734}
   m_Father: {fileID: 1580914515}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1628473282
 GameObject:
@@ -50869,7 +50670,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1580914515}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &1743952548
 GameObject:
@@ -51814,7 +51615,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1769102732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52028,7 +51829,7 @@ MonoBehaviour:
   itemId: 136
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -52243,7 +52044,7 @@ MonoBehaviour:
   itemId: 140
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -52285,7 +52086,7 @@ MonoBehaviour:
   itemId: 138
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -52529,7 +52330,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1580914515}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1785328466
 GameObject:
@@ -52871,7 +52672,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1812271950
 Transform:
   m_ObjectHideFlags: 0
@@ -55187,7 +54988,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1933123891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55547,7 +55348,7 @@ MonoBehaviour:
   itemId: 139
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -55575,7 +55376,7 @@ MonoBehaviour:
   itemId: 137
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -55631,7 +55432,7 @@ MonoBehaviour:
   itemId: 134
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -60786,7 +60587,7 @@ MonoBehaviour:
   itemId: 199
   indentLevel: 0
   description: Recompensa llave
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -60814,7 +60615,7 @@ MonoBehaviour:
   itemId: 208
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -60842,7 +60643,7 @@ MonoBehaviour:
   itemId: 207
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -60870,7 +60671,7 @@ MonoBehaviour:
   itemId: 206
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -60898,7 +60699,7 @@ MonoBehaviour:
   itemId: 205
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -60926,7 +60727,7 @@ MonoBehaviour:
   itemId: 204
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -60954,7 +60755,7 @@ MonoBehaviour:
   itemId: 203
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -60982,7 +60783,7 @@ MonoBehaviour:
   itemId: 202
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -61010,7 +60811,7 @@ MonoBehaviour:
   itemId: 201
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -61038,7 +60839,7 @@ MonoBehaviour:
   itemId: 200
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -61336,7 +61137,7 @@ MonoBehaviour:
   itemId: 239
   indentLevel: 0
   description: 
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -61939,7 +61740,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2137109469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62396,7 +62197,7 @@ MonoBehaviour:
   itemId: 135
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -62438,7 +62239,7 @@ MonoBehaviour:
   itemId: 139
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -62480,7 +62281,7 @@ MonoBehaviour:
   itemId: 137
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 1369072798}
+  targetObject: {fileID: 0}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
