@@ -16,7 +16,7 @@ public class TimeSysN : MonoBehaviour
 
     #region Singleton
 
-    private void Awake()
+    private void Start()
     {
         timeSys = this;
     }

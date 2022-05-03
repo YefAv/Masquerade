@@ -9,7 +9,7 @@ public class SaveTrigger : MonoBehaviour
 
     #region Singleton
     public static SaveTrigger saveTrigger;
-    private void Awake()
+    private void Start()
     {
         if (saveTrigger != null)
             Destroy(gameObject);

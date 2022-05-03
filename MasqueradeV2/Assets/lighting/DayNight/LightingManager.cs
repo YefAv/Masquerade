@@ -21,19 +21,24 @@ public class LightingManager : MonoBehaviour
     [SerializeField]
     private float gameHour;
     public float GameHour { get => gameHour; }
-
-    #region Singleton
-    private void Awake()
+    
+    /*private void Awake()
     {
         if (lighting != null)
             Destroy(gameObject);
         else
             lighting = this;
-    }
-    #endregion
+    }*/
 
     private void Start()
     {
+        #region Singleton en start xd
+        if (lighting != null)
+            Destroy(gameObject);
+        else
+            lighting = this;
+        #endregion
+
         if (endtHour <= startHour)
             endtHour = endtHour + 24;
 

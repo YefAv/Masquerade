@@ -8,22 +8,6 @@ public class Brain : MonoBehaviour
     public bool tiempoNormal;
     public static Brain _brain;
     
-    #region Singleton
-    
-    /*private void Awake()
-    {
-        if (_brain != null)
-        {
-            Destroy(gameObject);
-        }
-        else
-        {
-            _brain = this;
-        }
-
-        //SaveTrigger.saveTrigger.saveData.day = 4; // esto es temporal
-    }*/
-    #endregion
 
     public enum EstadosDeJuego
     {
@@ -45,6 +29,7 @@ public class Brain : MonoBehaviour
     private void Start()
     {
         _brain = this;
+        SaveTrigger.saveTrigger.saveData.day = 4;
         
         if (SaveTrigger.saveTrigger.saveData.day >= 1)
         {
