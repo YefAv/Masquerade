@@ -29,7 +29,7 @@ public class Brain : MonoBehaviour
     private void Start()
     {
         _brain = this;
-        SaveTrigger.saveTrigger.saveData.day = 4;
+        //SaveTrigger.saveTrigger.saveData.day = 4;
         
         if (SaveTrigger.saveTrigger.saveData.day >= 1)
         {
