@@ -6,15 +6,17 @@ using UnityEngine.Video;
 public class CinematicPlaying : MonoBehaviour
 {
 
-    void Update()
+    /*void Update()
     {
         if (gameObject.TryGetComponent(typeof(VideoPlayer), out Component videoPlayer))
         {
-            PlayerStateMachine.playerStateMachine.playerState = PlayerStateMachine.PlayerState.Cinematic;
+            Brain._brain.CambiarEstado(Brain.EstadosDeJuego.cinematica);
+            //PlayerStateMachine.playerStateMachine.playerState = PlayerStateMachine.PlayerState.Cinematic;
         }
         else {
-            PlayerStateMachine.playerStateMachine.playerState = PlayerStateMachine.PlayerState.NormalMov;
+            //PlayerStateMachine.playerStateMachine.playerState = PlayerStateMachine.PlayerState.NormalMov;
+            Brain._brain.CambiarEstado(Brain.EstadosDeJuego.normal);
             gameObject.GetComponent<CinematicPlaying>().enabled = false; }
 
-    }
+    }*/
 }

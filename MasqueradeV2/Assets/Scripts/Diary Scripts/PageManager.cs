@@ -71,7 +71,7 @@ public class PageManager : MonoBehaviour
 
     public void OpenDiary()
     {
-        savedPages = diary.GetComponent<SavedData>().discoveredNPC;
+        savedPages = SaveTrigger.saveTrigger.saveData.discoveredNPC;//saveTrigger
         PagesOff();
         FirstPageOn();
     }

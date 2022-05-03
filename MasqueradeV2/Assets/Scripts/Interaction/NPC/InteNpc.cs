@@ -8,6 +8,7 @@ using Unity.Profiling.LowLevel.Unsafe;
 public class InteNpc : MonoBehaviour, IInteractable
 {
     PlayerMovemnt playerMov;
+    private NewMove playerMovement;
     
     bool talking = false;
 
@@ -72,7 +73,7 @@ public class InteNpc : MonoBehaviour, IInteractable
 
     void startTalking()
     {
-        PlayerStateMachine.playerStateMachine.playerState = PlayerStateMachine.PlayerState.Npc; //bug de no me suelta la camara 
+        Brain._brain.CambiarEstado(Brain.EstadosDeJuego.npc); //bug de no me suelta la camara 
         talking = true;
         Talking_();
         zoom.CameraZooming(45, 5);
@@ -80,7 +81,7 @@ public class InteNpc : MonoBehaviour, IInteractable
     }
     void stopTalking()
     {
-        if (PlayerStateMachine.playerStateMachine.playerState == PlayerStateMachine.PlayerState.NormalMov && talking)
+        if (Brain._brain.Estado == Brain.EstadosDeJuego.normal && talking)
         {
             talking = false;
             TimeSystem.timeSyst.runningTime = true;

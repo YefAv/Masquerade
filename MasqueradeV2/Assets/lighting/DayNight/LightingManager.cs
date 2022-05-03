@@ -37,7 +37,7 @@ public class LightingManager : MonoBehaviour
         if (endtHour <= startHour)
             endtHour = endtHour + 24;
 
-        realTimeDuration = TimeSystem.timeSyst.loopDuration * 3;
+        realTimeDuration = TimeSysN.timeSys.duracionLoop * 3;
         gameHourDuration = endtHour - startHour;
         realTimeHour = 0;
         gameHour = startHour;
@@ -51,7 +51,7 @@ public class LightingManager : MonoBehaviour
         if (Preset == null)
             return;
 
-        if (TimeSystem.timeSyst.runningTime && Application.isPlaying)
+        if (TimeSysN.timeSys.tiempoCorriendo && Application.isPlaying)
         {
             realTimeHour += Time.deltaTime;
             timeOfDay = (((realTimeHour / realTimeDuration) * gameHourDuration)/(24)) + (startHour / gameHourDuration); 

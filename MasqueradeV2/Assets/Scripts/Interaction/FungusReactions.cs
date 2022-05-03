@@ -15,7 +15,7 @@ public class FungusReactions : MonoBehaviour
     [SerializeField] private GameObject videoCanvas;
     [SerializeField] private AudioSource musicAudSource;
     [SerializeField] private GameObject diarioCanv;
-    [SerializeField] GameObject pista;
+    //[SerializeField] GameObject pista;
 
     #region Singleton
     private void Awake()
@@ -38,22 +38,15 @@ public class FungusReactions : MonoBehaviour
 
     public void tpToStart() //this method will be deleted
     {
-        TimeSystem.timeSyst.runningTime = true;
+        //TimeSystem.timeSyst.runningTime = true;
+        TimeSysN.timeSys.tiempoCorriendo = true;
         player.transform.position = spawn.position;
         player.transform.rotation = spawn.rotation;
         musicAudSource.Play();
         diarioCanv.SetActive(true);
-        savedDataCode.day += 1;
+        //savedDataCode.day += 1;
         checkDayTrain();
-        PlayerStateMachine.playerStateMachine.playerState = PlayerStateMachine.PlayerState.NormalMov;
     }
-
-    /*private void Update()   //ELIMINAR LUEGO
-    {
-        if(Input.GetKey(KeyCode.J))
-            tpToStart();
-    }*/
-
     public void FirstBellText(bool firstTime)
     {
         if (!firstTime)
@@ -72,20 +65,22 @@ public class FungusReactions : MonoBehaviour
             Flowchart.BroadcastFungusMessage("TutorialYCinematica");
             _videoPlayer.Play();
             //savedDataCode.firstTime = true;
-            PlayerStateMachine.playerStateMachine.playerState = PlayerStateMachine.PlayerState.NormalMov;
+            //Brain._brain.CambiarEstado(Brain.EstadosDeJuego.normal); // NO ENTIENDO ESTO PORQUE ESTABA AQUI, PERO REALMENTE NO FUNCIONA
         }
         else
         {
-            PlayerStateMachine.playerStateMachine.playerState = PlayerStateMachine.PlayerState.Npc;
+            //Brain._brain.CambiarEstado(Brain.EstadosDeJuego.npc); // NO ENTIENDO ESTO PORQUE ESTABA AQUI, PERO REALMENTE NO FUNCIONA (creo)
+            Brain._brain.CambiarEstado(Brain.EstadosDeJuego.normal); //este si es nuevo
 
             OnFinishAnimatic();
             tpToStart(); // o grupo de cosas necesarias para empezar
         }
     }
+    
 
     public void FirstConversation()
     {
-        PlayerStateMachine.playerStateMachine.playerState = PlayerStateMachine.PlayerState.Cinematic;
+        Brain._brain.CambiarEstado(Brain.EstadosDeJuego.cinematica);
         Flowchart.BroadcastFungusMessage("Intro");
     }
 
@@ -103,7 +98,7 @@ public class FungusReactions : MonoBehaviour
 
     public void ActivateCamera()//poner este en todos los flowchars       --soltame hijueputa
     {
-        PlayerStateMachine.playerStateMachine.playerState = PlayerStateMachine.PlayerState.NormalMov;
+        Brain._brain.CambiarEstado(Brain.EstadosDeJuego.normal);
     }
 
     public void checkDayPickMap()
@@ -140,11 +135,13 @@ public class FungusReactions : MonoBehaviour
 
     public void SwapRunningTime()
     {
-        TimeSystem.timeSyst.runningTime = !TimeSystem.timeSyst.runningTime;
+        //TimeSystem.timeSyst.runningTime = !TimeSystem.timeSyst.runningTime;  // viejo time system
+        TimeSysN.timeSys.tiempoCorriendo = !TimeSysN.timeSys.tiempoCorriendo;
     }
 
-    public void VamoAPrender()
+    /*
+     public void VamoAPrender()
     {
         pista.SetActive(true);
-    }
+    }*/
 }

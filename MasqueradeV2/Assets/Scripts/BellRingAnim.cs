@@ -15,7 +15,7 @@ public class BellRingAnim : MonoBehaviour
     public void bellRing()
     {
         TimeSystem.timeSyst.runningTime = false;
-        PlayerStateMachine.playerStateMachine.playerState = PlayerStateMachine.PlayerState.Cinematic;
+        Brain._brain.CambiarEstado(Brain.EstadosDeJuego.cinematica);
         _animator.SetTrigger("bellTrigger");
         Invoke("ActivateMovement",3);
     }
@@ -23,6 +23,6 @@ public class BellRingAnim : MonoBehaviour
     public void ActivateMovement()
     {
         TimeSystem.timeSyst.runningTime = true;
-        PlayerStateMachine.playerStateMachine.playerState = PlayerStateMachine.PlayerState.NormalMov;
+        Brain._brain.CambiarEstado(Brain.EstadosDeJuego.normal);
     }
 }

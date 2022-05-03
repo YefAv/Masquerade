@@ -15,7 +15,7 @@ public class NewMove : MonoBehaviour
     private bool grounded;
     public float sensibilidadCam;
     private float yAxisClamp;
-    [NonSerialized] public bool lockMove;
+    [NonSerialized] public bool lockMove,lockCamMove;
     [SerializeField] private GameObject sayDialogBox;
 
     Vector3 MoveVector = new Vector3();
@@ -30,17 +30,17 @@ public class NewMove : MonoBehaviour
         stepTimeRunning = stepTimeWalking * 2.2f;
         speed = normalSpeed;
         timeToStep = stepTimeWalking;
-        Cursor.visible = false;
+        /*Cursor.visible = false;
         Cursor.lockState = CursorLockMode.Locked;
-        cameraState = CameraState.normalCam;
+        cameraState = CameraState.normalCam;*/
     }
 
     void FixedUpdate()
     {
         playerMovementInput = new Vector3(Input.GetAxisRaw("Horizontal"), 0f, Input.GetAxisRaw("Vertical"));
         playerMouseInput = new Vector2(Input.GetAxisRaw("Mouse X"), Input.GetAxisRaw("Mouse Y"));
-        cursorCamStateMachine();
-        MovementStateMachine();
+        /*cursorCamStateMachine();
+        MovementStateMachine();*/
         
         if (Physics.CheckSphere(new Vector3(feetTrans.position.x, feetTrans.position.y + 0.15f, feetTrans.position.z), 0.4f, groundMask))
             grounded = true;
@@ -51,7 +51,8 @@ public class NewMove : MonoBehaviour
     private void Update()
     {
         //cursorCamStateMachine();
-        //MovementStateMachine();
+        MovementStateMachine();
+        CamControl();
 
         if (playerMovementInput.x != 0 || playerMovementInput.z !=0)
         {
@@ -74,8 +75,6 @@ public class NewMove : MonoBehaviour
 
     private void MovePlayer()
     {
-
-
         if (grounded)
         {
             MoveVector = transform.TransformDirection(playerMovementInput) * speed;
@@ -119,26 +118,28 @@ public class NewMove : MonoBehaviour
 
     void CamControl()
     {
-        yAxisClamp += playerMouseInput.y * sensibilidadCam;
-
-        if (yAxisClamp > 90)
+        if (!lockCamMove)
         {
-            yAxisClamp = 90;
-            playerMouseInput.y = 0;
+            yAxisClamp += playerMouseInput.y * sensibilidadCam;
+
+            if (yAxisClamp > 90)
+            {
+                yAxisClamp = 90;
+                playerMouseInput.y = 0;
+            }
+            else if (yAxisClamp < -90)
+            {
+                yAxisClamp = -90;
+                playerMouseInput.y = 0;
+            }
+
+            // al toque mi rey
+
+            xRot -= playerMouseInput.y * sensibilidadCam;
+
+            transform.Rotate(0f, playerMouseInput.x * sensibilidadCam, 0f);
+            cameraTrans.transform.localRotation=Quaternion.Euler(xRot,0f,0f);
         }
-        else if (yAxisClamp < -90)
-        {
-            yAxisClamp = -90;
-            playerMouseInput.y = 0;
-        }
-
-        // al toque mi rey
-
-        xRot -= playerMouseInput.y * sensibilidadCam;
-
-        transform.Rotate(0f, playerMouseInput.x * sensibilidadCam, 0f);
-        cameraTrans.transform.localRotation=Quaternion.Euler(xRot,0f,0f);
-        
     }
 
     void StepEffect()
@@ -155,35 +156,6 @@ public class NewMove : MonoBehaviour
     void headBob()
     {
         
-    }
-
-    [NonSerialized] public CameraState cameraState = CameraState.cinematic;
-    public enum CameraState
-    {
-        normalCam,
-        cinematic,
-        diary
-    }
-    
-    void cursorCamStateMachine()
-    {
-        switch (cameraState)
-        {
-            case CameraState.normalCam:
-                Cursor.visible = false;
-                Cursor.lockState = CursorLockMode.Locked;
-                //CameraRotation();
-                CamControl();
-                return;
-            case CameraState.cinematic:
-                Cursor.visible = false;
-                Cursor.lockState = CursorLockMode.Locked;
-                return;
-            case CameraState.diary :
-                Cursor.visible = true;
-                Cursor.lockState = CursorLockMode.Confined;
-                return;
-        }
     }
 
     void MovementStateMachine()

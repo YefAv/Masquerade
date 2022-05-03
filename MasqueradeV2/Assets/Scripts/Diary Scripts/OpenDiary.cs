@@ -31,7 +31,7 @@ public class OpenDiary : MonoBehaviour
     
     private void Start()
     {
-        data = TimeSystem.timeSyst.saveCode;
+        data = TimeSystem.timeSyst.saveCode; // REFERENCIA DEL SAVETRIGGER
         audio = this.gameObject.transform.GetChild(2).GetComponent<AudioSource>();
     }
     void Update()
@@ -56,7 +56,7 @@ public class OpenDiary : MonoBehaviour
             {
                 Close();
             }
-            else if (PlayerStateMachine.playerStateMachine.playerState == PlayerStateMachine.PlayerState.NormalMov)
+            else
             {
                 Open();
             }
@@ -67,13 +67,14 @@ public class OpenDiary : MonoBehaviour
     {
         diary.SetActive(true); //dirio obj
         diaryHudCanv.SetActive(false); //diario chiquito abajo izq 
-        TimeSystem.timeSyst.runningTime = false; // Parar el tiempo
+        TimeSystem.timeSyst.runningTime = false; // Parar el tiempo   ==== SE MUEVE DEL NUEVO BRAIN
         pageManager.OpenDiary(); // guarda personajes y los visualiza
         audio.Play();
 
 
-        PlayerStateMachine.playerStateMachine.playerState = PlayerStateMachine.PlayerState.Diary; // modo tieso
-
+        //PlayerStateMachine.playerStateMachine.playerState = PlayerStateMachine.PlayerState.Diary; // modo tieso    ==== SE MUEVE DEL NUEVO BRAIN
+        Brain._brain.CambiarEstado(Brain.EstadosDeJuego.diario);
+        
         for (int i = 0; i < data.clueNotes.Count; i++)
         {
             pistas.transform.GetChild(data.clueNotes[i]).gameObject.SetActive(true);
@@ -81,28 +82,16 @@ public class OpenDiary : MonoBehaviour
         paused.TransitionTo(0.1f); // ni idea
 
     }
+    
 
     public void Close()
     {
         diary.SetActive(false);
-        TimeSystem.timeSyst.runningTime = true;
+        TimeSystem.timeSyst.runningTime = true; //  SE MUEVE DEL NUEVO BRAIN
         diaryHudCanv.SetActive(true);
 
-        PlayerStateMachine.playerStateMachine.playerState = PlayerStateMachine.PlayerState.NormalMov;
+        Brain._brain.CambiarEstado(Brain.EstadosDeJuego.normal); //  SE MUEVE DEL NUEVO BRAIN
 
         inGame.TransitionTo(0.1f);
-        TimeSystem.timeSyst.runningTime = true;
-    }
-
-    public void MisionCumplida()
-    {
-        gameObject.transform.GetChild(3).gameObject.SetActive(true);
-        Wait();
-    }
-
-    IEnumerator Wait()
-    {
-        yield return new WaitForSeconds(4);
-        gameObject.transform.GetChild(3).gameObject.SetActive(false);
     }
 }

@@ -21,59 +21,60 @@ public class PlayerStateMachine : MonoBehaviour
 
     #endregion
     
-    public enum PlayerState
+    public enum PlayerMovState
     {
-        Npc,
-        Cinematic,
-        Diary,
-        NormalMov
+        NormalMov,
+        FreezeMov
     }
-
-    [NonSerialized] public PlayerState playerState = PlayerState.NormalMov;
-    
-    private void Update()
+    [NonSerialized] public PlayerMovState playerState = PlayerMovState.NormalMov;
+    void MovStateMachine()
     {
-        Debug.Log("Estoy en estado " + playerState);
         switch (playerState)
         {
-            case PlayerState.NormalMov:
-                //cameraControl.cameraState = CameraControl.CameraState.normalCam;
-                //playerMovemnt.lock_ = false;
+            case PlayerMovState.NormalMov:
                 playerController.lockMove = false;
-                playerController.cameraState = NewMove.CameraState.normalCam;
-                openDiaryCode.usability = true;
                 InteractionManCode.canInteract = true;
                 return;
-            case PlayerState.Npc:
-                //cameraControl.cameraState = CameraControl.CameraState.cinematic; // CAMARA QUIETA ====TEMPORAAAAL=====
-                //playerMovemnt.lock_ = true;
-                //
-                playerController.lockMove = true;
-                playerController.cameraState = NewMove.CameraState.cinematic;
-                openDiaryCode.usability = false;
-                openDiaryCode.Close();
-                openDiaryCode.diaryHudCanv.SetActive(false);
-                InteractionManCode.canInteract = false;
-                return;
-            case PlayerState.Cinematic:
-                //cameraControl.cameraState = CameraControl.CameraState.cinematic;
-                //playerMovemnt.lock_ = true;
-                //
-                playerController.lockMove = true;
-                playerController.cameraState = NewMove.CameraState.cinematic;
-                openDiaryCode.usability = false;
-                openDiaryCode.Close();
-                openDiaryCode.diaryHudCanv.SetActive(false);
-                InteractionManCode.canInteract = false;
-                return;
-            case PlayerState.Diary:
-                //cameraControl.cameraState = CameraControl.CameraState.diary;
-                //playerMovemnt.lock_ = true;
-                //
-                playerController.cameraState = NewMove.CameraState.diary;
+            case PlayerMovState.FreezeMov:
                 playerController.lockMove = true;
                 InteractionManCode.canInteract = false;
                 return;
         }
+    }
+    
+    [NonSerialized] public CameraState cameraState = CameraState.normalCam;
+    public enum CameraState
+    {
+        normalCam,
+        FreezeCam,
+        Diary
+    }
+    
+    void CamStateMachine()
+    {
+        switch (cameraState)
+        {
+            case CameraState.normalCam:
+                Cursor.visible = false;
+                Cursor.lockState = CursorLockMode.Locked;
+                playerController.lockCamMove = false;
+                return;
+            case CameraState.FreezeCam:
+                Cursor.visible = false;
+                Cursor.lockState = CursorLockMode.Locked;
+                playerController.lockCamMove = true;
+                return;
+            case CameraState.Diary :
+                Cursor.visible = true;
+                Cursor.lockState = CursorLockMode.Confined;
+                playerController.lockCamMove = true;
+                return;
+        }
+    }
+
+    private void FixedUpdate()
+    {
+        CamStateMachine();
+        MovStateMachine();
     }
 }
