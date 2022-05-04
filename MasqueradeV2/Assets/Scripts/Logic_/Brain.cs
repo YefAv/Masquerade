@@ -7,6 +7,7 @@ public class Brain : MonoBehaviour
 {
     public bool tiempoNormal;
     public static Brain _brain;
+    [SerializeField] private bool restart;
     
 
     public enum EstadosDeJuego
@@ -30,6 +31,17 @@ public class Brain : MonoBehaviour
     {
         _brain = this;
         //SaveTrigger.saveTrigger.saveData.day = 4;
+
+        if (restart)
+        {
+            SaveTrigger.saveTrigger.Guardar();
+            //aca va el reinico
+        }
+        else
+        {
+            SaveTrigger.saveTrigger.Cargar();
+            
+        }
         
         if (SaveTrigger.saveTrigger.saveData.day >= 1)
         {

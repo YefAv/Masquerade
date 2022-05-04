@@ -8,7 +8,9 @@ public class SaveTrigger : MonoBehaviour
     public SavedData saveData;
 
     #region Singleton
+
     public static SaveTrigger saveTrigger;
+
     private void Start()
     {
         if (saveTrigger != null)
@@ -16,8 +18,9 @@ public class SaveTrigger : MonoBehaviour
         else
             saveTrigger = this;
     }
+
     #endregion
-    
+
     // metodos de savemanager
 
     public void conteoDias()
@@ -30,6 +33,12 @@ public class SaveTrigger : MonoBehaviour
     {
         SaveManager.Save(saveData, SaveManager.LoadSlot_());
     }
+
+    public void Cargar()
+    {
+        SaveManager.Load(saveData,SaveManager.LoadSlot_());
+    }
     
+
     //Metodo cargar pendiente
 }

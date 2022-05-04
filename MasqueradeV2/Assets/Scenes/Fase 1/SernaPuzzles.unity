@@ -2434,7 +2434,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &158616694
 Transform:
   m_ObjectHideFlags: 0
@@ -7263,7 +7263,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -38.88233
     y: 91.17646
-    width: 119.41175
+    width: 115.88234
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9238,7 +9238,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 614.8285
     y: 82.306755
-    width: 173.9024
+    width: 180.28566
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9559,7 +9559,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 376.23752
     y: 82.1968
-    width: 114.39023
+    width: 117.42854
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9852,7 +9852,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 840.72046
     y: 133.54855
-    width: 235.36581
+    width: 240
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9979,7 +9979,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 370.98877
     y: 130.10953
-    width: 234.3902
+    width: 240
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10037,7 +10037,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 606.35455
     y: 132.32904
-    width: 235.36581
+    width: 240
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10121,8 +10121,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 135.93942
-    y: 130.89001
-    width: 233.4146
+    y: 132.10953
+    width: 240
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10411,7 +10411,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 139.61111
     y: 79.71306
-    width: 184.63412
+    width: 191.71423
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10446,11 +10446,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -128.92326, y: 7.9738245}
+  scrollPos: {x: -206.78008, y: 280.32465}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.8200002
+  zoom: 0.7000003
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -10458,9 +10458,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 415277132}
+  - {fileID: 415277121}
   selectedCommands:
-  - {fileID: 415277153}
+  - {fileID: 415277145}
   variables: []
   description: 
   stepPause: 0
@@ -10487,9 +10487,8 @@ MonoBehaviour:
   itemId: 143
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 0}
-  targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
+  targetObject: {fileID: 1199205313}
+  targetComponentAssemblyName: 
   targetComponentFullname: UnityEngine.Component[]
   targetComponentText: FungusReactions
   targetMethod: ActivateCamera
@@ -10515,7 +10514,7 @@ MonoBehaviour:
   itemId: 142
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 0}
+  targetObject: {fileID: 1199205313}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -10543,7 +10542,7 @@ MonoBehaviour:
   itemId: 141
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 0}
+  targetObject: {fileID: 1199205313}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -10571,7 +10570,7 @@ MonoBehaviour:
   itemId: 140
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 0}
+  targetObject: {fileID: 1199205313}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -10599,7 +10598,7 @@ MonoBehaviour:
   itemId: 139
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 0}
+  targetObject: {fileID: 1199205313}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -10627,7 +10626,7 @@ MonoBehaviour:
   itemId: 138
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 0}
+  targetObject: {fileID: 1199205313}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -10655,7 +10654,7 @@ MonoBehaviour:
   itemId: 137
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 0}
+  targetObject: {fileID: 1199205313}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -10683,7 +10682,7 @@ MonoBehaviour:
   itemId: 136
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 0}
+  targetObject: {fileID: 1199205313}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -10711,7 +10710,7 @@ MonoBehaviour:
   itemId: 135
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 0}
+  targetObject: {fileID: 1199205313}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -10739,7 +10738,7 @@ MonoBehaviour:
   itemId: 134
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 0}
+  targetObject: {fileID: 1199205313}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -15883,7 +15882,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &517755388
 Transform:
   m_ObjectHideFlags: 0
@@ -20371,7 +20370,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 474949300}
+  selectedFlowchart: {fileID: 1168168680}
 --- !u!4 &602568057
 Transform:
   m_ObjectHideFlags: 1
@@ -30100,7 +30099,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &963557754
 Transform:
   m_ObjectHideFlags: 0
@@ -35259,7 +35258,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1038408433
 Transform:
   m_ObjectHideFlags: 0
@@ -35457,7 +35456,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1051649285
 Transform:
   m_ObjectHideFlags: 0
@@ -37631,7 +37630,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 462.28827
     y: 163.18349
-    width: 145
+    width: 147.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -37775,7 +37774,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 461.69125
     y: 111.43727
-    width: 155
+    width: 158
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -37945,7 +37944,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 462.2884
     y: 68.1537
-    width: 148
+    width: 150.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -38089,7 +38088,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 461.69162
     y: 18.900047
-    width: 152
+    width: 154.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -38259,7 +38258,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 461.09448
     y: -33.33873
-    width: 143
+    width: 145.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -38403,7 +38402,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 275.12448
     y: 150.24329
-    width: 149
+    width: 151.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -38599,7 +38598,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 276.02
     y: 100.98954
-    width: 142
+    width: 144.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -38743,7 +38742,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 279.6023
     y: 48.750793
-    width: 161
+    width: 163.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -38911,8 +38910,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 279.51105
-    y: -6.5617085
-    width: 130
+    y: -5.5617085
+    width: 132.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -39440,7 +39439,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 69.33172
     y: 143.1284
-    width: 176
+    width: 179.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -39504,7 +39503,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 66.507454
     y: 90.10733
-    width: 190
+    width: 194
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -39539,7 +39538,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 494.1022, y: 75.65208}
+  scrollPos: {x: -7.8977966, y: 86.65208}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 517
@@ -39551,8 +39550,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1168168679}
-  selectedCommands: []
+  - {fileID: 1168168603}
+  selectedCommands:
+  - {fileID: 1168168681}
   variables: []
   description: 
   stepPause: 0
@@ -39579,7 +39579,7 @@ MonoBehaviour:
   itemId: 156
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 0}
+  targetObject: {fileID: 1199205313}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -39607,7 +39607,7 @@ MonoBehaviour:
   itemId: 155
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 0}
+  targetObject: {fileID: 1199205313}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -39635,7 +39635,7 @@ MonoBehaviour:
   itemId: 154
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 0}
+  targetObject: {fileID: 1199205313}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -39663,9 +39663,8 @@ MonoBehaviour:
   itemId: 153
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 0}
-  targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
-    Culture=neutral, PublicKeyToken=null
+  targetObject: {fileID: 1199205313}
+  targetComponentAssemblyName: 
   targetComponentFullname: UnityEngine.Component[]
   targetComponentText: FungusReactions
   targetMethod: ActivateCamera
@@ -39691,7 +39690,7 @@ MonoBehaviour:
   itemId: 152
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 0}
+  targetObject: {fileID: 1199205313}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -39719,7 +39718,7 @@ MonoBehaviour:
   itemId: 151
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 0}
+  targetObject: {fileID: 1199205313}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -39747,7 +39746,7 @@ MonoBehaviour:
   itemId: 150
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 0}
+  targetObject: {fileID: 1199205313}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -39775,7 +39774,7 @@ MonoBehaviour:
   itemId: 149
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 0}
+  targetObject: {fileID: 1199205313}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -39803,7 +39802,7 @@ MonoBehaviour:
   itemId: 148
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 0}
+  targetObject: {fileID: 1199205313}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -39831,7 +39830,7 @@ MonoBehaviour:
   itemId: 147
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 0}
+  targetObject: {fileID: 1199205313}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -39859,7 +39858,7 @@ MonoBehaviour:
   itemId: 146
   indentLevel: 0
   description: Activar Camara
-  targetObject: {fileID: 0}
+  targetObject: {fileID: 1199205313}
   targetComponentAssemblyName: FungusReactions, Assembly-CSharp, Version=0.0.0.0,
     Culture=neutral, PublicKeyToken=null
   targetComponentFullname: UnityEngine.Component[]
@@ -39874,7 +39873,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &1168168692
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -39904,7 +39903,7 @@ MonoBehaviour:
     floatVal: 0
 --- !u!114 &1168168693
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -39934,7 +39933,7 @@ MonoBehaviour:
     floatVal: 0
 --- !u!114 &1168168694
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -39964,7 +39963,7 @@ MonoBehaviour:
     floatVal: 0
 --- !u!114 &1168168695
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -39994,7 +39993,7 @@ MonoBehaviour:
     floatVal: 0
 --- !u!114 &1168168696
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -40024,7 +40023,7 @@ MonoBehaviour:
     floatVal: 0
 --- !u!114 &1168168697
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -40054,7 +40053,7 @@ MonoBehaviour:
     floatVal: 0
 --- !u!114 &1168168698
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -40084,7 +40083,7 @@ MonoBehaviour:
     floatVal: 0
 --- !u!114 &1168168699
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -40114,7 +40113,7 @@ MonoBehaviour:
     floatVal: 0
 --- !u!114 &1168168700
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -40144,7 +40143,7 @@ MonoBehaviour:
     floatVal: 0
 --- !u!114 &1168168701
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -40174,7 +40173,7 @@ MonoBehaviour:
     floatVal: 0
 --- !u!114 &1168168702
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -40707,6 +40706,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tiempoNormal: 0
+  restart: 0
 --- !u!114 &1199205317
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43954,7 +43954,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1431554987
 Transform:
   m_ObjectHideFlags: 0
@@ -46152,7 +46152,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1536494625
 Transform:
   m_ObjectHideFlags: 0
@@ -46226,7 +46226,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 217
     y: 222
-    width: 89
+    width: 90
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -46299,7 +46299,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 219
     y: 145
-    width: 89
+    width: 90
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -46372,7 +46372,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 104
     y: 220
-    width: 88
+    width: 89.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -46444,7 +46444,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 105
     y: 147
-    width: 87
+    width: 88.4
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -46471,7 +46471,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 491, y: -39}
+  scrollPos: {x: 113, y: 110}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -46666,7 +46666,7 @@ MonoBehaviour:
   callMode: 0
 --- !u!114 &1536494647
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -46696,7 +46696,7 @@ MonoBehaviour:
     floatVal: 0
 --- !u!114 &1536494648
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -46726,7 +46726,7 @@ MonoBehaviour:
     floatVal: 0
 --- !u!114 &1536494649
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -46756,7 +46756,7 @@ MonoBehaviour:
     floatVal: 0
 --- !u!114 &1536494650
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -47033,7 +47033,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1553813670
 Transform:
   m_ObjectHideFlags: 0
@@ -47638,7 +47638,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1588050186
 Transform:
   m_ObjectHideFlags: 0
@@ -47940,7 +47940,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 633.6398, y: -9.742851}
+  scrollPos: {x: 550.0781, y: 20.394127}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -47954,7 +47954,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 1588050197}
   selectedCommands:
-  - {fileID: 1588050204}
+  - {fileID: 1588050205}
   variables: []
   description: 
   stepPause: 0
@@ -51615,7 +51615,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1769102732
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52672,7 +52672,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1812271950
 Transform:
   m_ObjectHideFlags: 0
@@ -54988,7 +54988,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1933123891
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61740,7 +61740,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2137109469
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -62744,6 +62744,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 444829268}
     m_Modifications:
+    - target: {fileID: 1138864867305666582, guid: 3847cbf74cdbc7e40a70388cb8a3f797,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1138864867305666583, guid: 3847cbf74cdbc7e40a70388cb8a3f797,
         type: 3}
       propertyPath: m_Sprite
