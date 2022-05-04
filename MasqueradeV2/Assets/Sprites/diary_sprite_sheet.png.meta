@@ -1,0 +1,524 @@
+fileFormatVersion: 2
+guid: b751c2cd5b868ee429336f1719f49140
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 303255768869944801
+    second: diary_sprite_sheet_0
+  - first:
+      213: -6605932017902571252
+    second: diary_sprite_sheet_1
+  - first:
+      213: 6858110594221095149
+    second: diary_sprite_sheet_2
+  - first:
+      213: 5859443989791755965
+    second: diary_sprite_sheet_3
+  - first:
+      213: -6702087102911894376
+    second: diary_sprite_sheet_4
+  - first:
+      213: -8013760928080282507
+    second: diary_sprite_sheet_5
+  - first:
+      213: 8009779443468307289
+    second: diary_sprite_sheet_6
+  - first:
+      213: -5148252971046140198
+    second: diary_sprite_sheet_7
+  - first:
+      213: 7526546061433379201
+    second: diary_sprite_sheet_8
+  - first:
+      213: 5206963507553147768
+    second: diary_sprite_sheet_9
+  - first:
+      213: 9201390371562058686
+    second: diary_sprite_sheet_10
+  - first:
+      213: -5795172965082374335
+    second: diary_sprite_sheet_11
+  - first:
+      213: -3657480971135787972
+    second: diary_sprite_sheet_12
+  - first:
+      213: -3873617709920924989
+    second: diary_sprite_sheet_13
+  - first:
+      213: 4399417680746899996
+    second: diary_sprite_sheet_14
+  - first:
+      213: -836501355855728609
+    second: diary_sprite_sheet_15
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: diary_sprite_sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3251.25
+        width: 1044
+        height: 1083.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1edb49bd381653400800000000000000
+      internalID: 303255768869944801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_sprite_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 3251.25
+        width: 1044
+        height: 1083.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01b98654d30354a0800000000000000
+      internalID: -6605932017902571252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_sprite_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 3251.25
+        width: 1044
+        height: 1083.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de834e6ef37ec2f50800000000000000
+      internalID: 6858110594221095149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_sprite_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 3132
+        y: 3251.25
+        width: 1044
+        height: 1083.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbec5d8934de05150800000000000000
+      internalID: 5859443989791755965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_sprite_sheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2168.25
+        width: 1044
+        height: 1083.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ca5310a476df2a0800000000000000
+      internalID: -6702087102911894376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_sprite_sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 2168.25
+        width: 1044
+        height: 1083.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57cbed605e669c090800000000000000
+      internalID: -8013760928080282507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_sprite_sheet_6
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 2168.25
+        width: 1044
+        height: 1083.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95b872957f3782f60800000000000000
+      internalID: 8009779443468307289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_sprite_sheet_7
+      rect:
+        serializedVersion: 2
+        x: 3132
+        y: 2168.25
+        width: 1044
+        height: 1083.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad602fe033bbd88b0800000000000000
+      internalID: -5148252971046140198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_sprite_sheet_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1085.25
+        width: 1044
+        height: 1083.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1891a59f3c9a37860800000000000000
+      internalID: 7526546061433379201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_sprite_sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 1085.25
+        width: 1044
+        height: 1083.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87b9022f8b9d24840800000000000000
+      internalID: 5206963507553147768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_sprite_sheet_10
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 1085.25
+        width: 1044
+        height: 1083.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb3f7a8bac7e1bf70800000000000000
+      internalID: 9201390371562058686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_sprite_sheet_11
+      rect:
+        serializedVersion: 2
+        x: 3132
+        y: 1085.25
+        width: 1044
+        height: 1083.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14f515474e8639fa0800000000000000
+      internalID: -5795172965082374335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_sprite_sheet_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2.25
+        width: 1044
+        height: 1083.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c53b65f640e3dc0800000000000000
+      internalID: -3657480971135787972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_sprite_sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1044
+        y: 2.25
+        width: 1044
+        height: 1083.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca408457352e3ac0800000000000000
+      internalID: -3873617709920924989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_sprite_sheet_14
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 2.25
+        width: 1044
+        height: 1083.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1aed7f421fdd0d30800000000000000
+      internalID: 4399417680746899996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: diary_sprite_sheet_15
+      rect:
+        serializedVersion: 2
+        x: 3132
+        y: 2.25
+        width: 1044
+        height: 1083.75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f103616e2762464f0800000000000000
+      internalID: -836501355855728609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5468cf1719d0ead4082f51710231506a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
