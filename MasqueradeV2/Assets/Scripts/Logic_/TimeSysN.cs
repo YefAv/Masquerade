@@ -2,6 +2,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Video;
+using UnityEngine.SceneManagement;
 
 public class TimeSysN : MonoBehaviour
 {
@@ -12,6 +14,8 @@ public class TimeSysN : MonoBehaviour
     [SerializeField] private AudioSource campanaSonido;
     [SerializeField] private GameObject camaraCampanada;
     [SerializeField] private BellRingAnim _bellRingAnim;
+    [SerializeField] private VideoPlayer vidPlayerEnd;
+    [SerializeField] private GameObject vidCanvas;
     public static TimeSysN timeSys;
 
     #region Singleton
@@ -48,16 +52,16 @@ public class TimeSysN : MonoBehaviour
         {
             contadorCampanas++;
             tiempo = 0;
-            SaveTrigger.saveTrigger.Guardar(); // guarda
             _bellRingAnim.bellRing(); // animación
             StartCoroutine(ActivarYDesactivarCamara());
-            //texto primera campanada del juego  ////// fungus reaction texto campana
+            FungusReactions.fungusCode.FirstBellText(SaveTrigger.saveTrigger.saveData.firstBell);
             campanaSonido.Play();
-            // ????? bool primera campana?????
+            SaveTrigger.saveTrigger.saveData.firstBell = true;
+            SaveTrigger.saveTrigger.Guardar(); // guarda
             
             if (contadorCampanas > 2)
             {
-                ReinicioEscena();
+                StartCoroutine(ReinicioEscena());
             }
         }
     }
@@ -78,9 +82,11 @@ public class TimeSysN : MonoBehaviour
         Brain._brain.CambiarEstado(Brain.EstadosDeJuego.cinematica);
         SaveTrigger.saveTrigger.conteoDias(); // esto suma un día y guarda
         yield return new WaitForSeconds(4);
-        //Dispara cinematica de reinicio
+        vidPlayerEnd.gameObject.SetActive(true);
+        vidCanvas.SetActive(true);
+        vidPlayerEnd.Play();
         yield return new WaitForSeconds(5);
-        //recargar escena
+        SceneManager.LoadScene("SernaPuzzles");
     }
     
 }
