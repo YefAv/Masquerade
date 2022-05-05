@@ -47,9 +47,10 @@ public class LightingManager : MonoBehaviour
         realTimeHour = 0;
         gameHour = startHour;
 
-        timeOfDay = ((realTimeHour / realTimeDuration) * gameHourDuration) / (24) + (startHour / gameHourDuration);
+        timeOfDay = (((realTimeHour / realTimeDuration) * gameHourDuration) / (24)) + (startHour / gameHourDuration);
 
-        UpdateSkyBox(0.5f);
+        UpdateLighting(timeOfDay);
+        UpdateSkyBox(timeOfDay);
     }
     private void Update()
     {
