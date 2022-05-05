@@ -6,24 +6,9 @@ using UnityEngine;
 public class Brain : MonoBehaviour
 {
     public bool tiempoNormal;
-
-    
-    #region Singleton
     public static Brain _brain;
-    private void Awake()
-    {
-        if (_brain != null)
-        {
-            Destroy(gameObject);
-        }
-        else
-        {
-            _brain = this;
-        }
-
-        SaveTrigger.saveTrigger.saveData.day = 4; // esto es temporal
-    }
-    #endregion
+    [SerializeField] private bool restart;
+    
 
     public enum EstadosDeJuego
     {
@@ -44,13 +29,29 @@ public class Brain : MonoBehaviour
 
     private void Start()
     {
+        _brain = this;
+        //SaveTrigger.saveTrigger.saveData.day = 4;
+
+        if (restart)
+        {
+            SaveTrigger.saveTrigger.Guardar();
+            //aca va el reinico
+        }
+        else
+        {
+            SaveTrigger.saveTrigger.Cargar();
+            
+        }
+        
         if (SaveTrigger.saveTrigger.saveData.day >= 1)
         {
             estado = EstadosDeJuego.normal;
             FungusReactions.fungusCode.tpToStart();
+            Debug.Log("mi perro si estoy X2");
         }
         else
         {
+            Debug.Log("mi perro si estoy");
             estado = EstadosDeJuego.tutorial; // o cinemática
             FungusReactions.fungusCode.PlayAnimaticOneTime();
             //Correr cinemática y al terminar dialogo fungus
@@ -95,6 +96,7 @@ public class Brain : MonoBehaviour
                 PlayerStateMachine.playerStateMachine.playerState = PlayerStateMachine.PlayerMovState.FreezeMov;
                 PlayerStateMachine.playerStateMachine.cameraState = PlayerStateMachine.CameraState.Diary;
                 OpenDiary.openDiaryCode.usability = true;
+                Debug.Log("diario HIJUEPUTAAAA");
                 //hud hora 
                 
                 break;

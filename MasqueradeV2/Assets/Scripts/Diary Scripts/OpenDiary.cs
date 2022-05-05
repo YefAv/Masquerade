@@ -32,7 +32,7 @@ public class OpenDiary : MonoBehaviour
     private void Start()
     {
         data = TimeSystem.timeSyst.saveCode; // REFERENCIA DEL SAVETRIGGER
-        audio = this.gameObject.transform.GetChild(2).GetComponent<AudioSource>();
+        //audio = this.gameObject.transform.GetChild(2).GetComponent<AudioSource>();
     }
     void Update()
     {
@@ -67,10 +67,10 @@ public class OpenDiary : MonoBehaviour
     {
         diary.SetActive(true); //dirio obj
         diaryHudCanv.SetActive(false); //diario chiquito abajo izq 
-        TimeSystem.timeSyst.runningTime = false; // Parar el tiempo   ==== SE MUEVE DEL NUEVO BRAIN
+        TimeSysN.timeSys.tiempoCorriendo = false; // Parar el tiempo   ==== SE MUEVE DEL NUEVO BRAIN
         pageManager.OpenDiary(); // guarda personajes y los visualiza
-        audio.Play();
-
+        //audio.Play(); a solucionar 
+        
 
         //PlayerStateMachine.playerStateMachine.playerState = PlayerStateMachine.PlayerState.Diary; // modo tieso    ==== SE MUEVE DEL NUEVO BRAIN
         Brain._brain.CambiarEstado(Brain.EstadosDeJuego.diario);
@@ -87,7 +87,7 @@ public class OpenDiary : MonoBehaviour
     public void Close()
     {
         diary.SetActive(false);
-        TimeSystem.timeSyst.runningTime = true; //  SE MUEVE DEL NUEVO BRAIN
+        TimeSysN.timeSys.tiempoCorriendo = true; //  SE MUEVE DEL NUEVO BRAIN
         diaryHudCanv.SetActive(true);
 
         Brain._brain.CambiarEstado(Brain.EstadosDeJuego.normal); //  SE MUEVE DEL NUEVO BRAIN

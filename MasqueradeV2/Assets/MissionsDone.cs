@@ -5,13 +5,16 @@ using UnityEngine;
 public class MissionsDone : MonoBehaviour
 {
     [SerializeField] GameObject faces;
-    TimeSystem timeSystem;
+    //TimeSystem timeSystem;
+    //private TimeSysN timeSysN_;
     SavedData savedData;
 
     private void Start()
     {
-        timeSystem = TimeSystem.timeSyst;
-        savedData = timeSystem.saveCode;
+        //timeSystem = TimeSystem.timeSyst;
+        //savedData = timeSystem.saveCode;
+        //timeSysN_=TimeSysN.timeSys;
+        savedData = SaveTrigger.saveTrigger.saveData;
     }
 
     void Update()
