@@ -11,4 +11,5 @@ public class SavedData: MonoBehaviour
     //public bool firstTime;
     public int day = 0;
     public bool firstBell = false;
+    public bool didTutorial;
 }
