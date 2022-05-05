@@ -4,20 +4,20 @@ using UnityEngine;
 
 public class MissionPenny : MissionsTemplate //al heredar de MissionsTemplate ya tiene MonoBehaviour
 {
-
-    private void Update()
-    {
-        LogicX();
-    }
+      
     [SerializeField] InteNpc interation;
     void Start()
     {
         SetValues();
     }
+    private void Update()
+    {
+        LogicX();
+    }
 
     void LogicX()
     {
-        if (interation.Known)
+        if (interation.Known && !doneMission)
         {
             MissionDone();
         }

@@ -20,15 +20,18 @@ public class RotationManager : MonoBehaviour
         codeCart = cart.GetComponent<Cinemachine.CinemachineDollyCart>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
         speed = codeCart.m_Speed;
+
         interactText.color = Color.clear;
         questSprite = GetComponentInChildren<SpriteRenderer>();
         questSprite.color = new Color(1, 1, 1, 0);
     }
     private void LateUpdate()
     {
+        
         if (!lookP)
         {
             transform.rotation = cart.rotation;
+            //Debug.Log(transform.rotation + " = " + cart.rotation);
             interactText.color = Color.clear;
             questSprite.color = new Color(1, 1, 1, 0);
         }
@@ -44,18 +47,20 @@ public class RotationManager : MonoBehaviour
     private void OnTriggerExit(Collider other)
     {
         lookP = false;
-        interactText.color = Color.clear;
-        questSprite.color = new Color(1, 1, 1, 0);
         codeCart.m_Speed = speed;
+
+        interactText.color = Color.clear;
+        questSprite.color = new Color(1, 1, 1, 0);       
     }
 
     void LookPlayer()
     {
         playerToLook = new Vector3(player.position.x, transform.position.y, player.position.z);
         lookP = true;
-        interactText.color = Color.white;
-        questSprite.color = new Color(1, 1, 1, 1);
         codeCart.m_Speed = 0;
+
         transform.LookAt(playerToLook);
+        interactText.color = Color.white;
+        questSprite.color = new Color(1, 1, 1, 1);        
     }
 }
