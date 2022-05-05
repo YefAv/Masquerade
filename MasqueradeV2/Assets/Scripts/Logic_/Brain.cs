@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Brain : MonoBehaviour
 {
@@ -40,12 +41,10 @@ public class Brain : MonoBehaviour
         if (restart)
         {
             SaveTrigger.saveTrigger.Guardar();
-            //aca va el reinico
         }
         else
         {
             SaveTrigger.saveTrigger.Cargar();
-            
         }
         
         if (SaveTrigger.saveTrigger.saveData.day >= 1)
