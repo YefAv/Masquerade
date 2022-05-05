@@ -8,7 +8,6 @@ public class OpenChurch : MonoBehaviour,IInteractable
     {
         if (Inventory.invScript.HaveCurchKey)
         {
-            DemoTrigger.demoTrigger.StartCoroutine("EndDemoCoroutine");
             Destroy(gameObject);// Animación de puerta abriendose
         }
     }

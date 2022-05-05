@@ -18,6 +18,6 @@ public class MisssionBuck : MissionsTemplate //al heredar de MissionsTemplate ya
             MissionDone();
             //Se abre iglesia, debería haber closeUp y animación
         }
-        MissionDone();
+        //MissionDone();
     }
 }
