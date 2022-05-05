@@ -38,7 +38,11 @@ RenderSettings:
   m_ReflectionIntensity: 0.65
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 1194984588}
+<<<<<<< Updated upstream
   m_IndirectSpecularColor: {r: 0.102996945, g: 0.53846574, b: 1.0822366, a: 0.65}
+=======
+  m_IndirectSpecularColor: {r: 0.10370075, g: 0.5391681, b: 1.0822508, a: 0.65}
+>>>>>>> Stashed changes
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7600,7 +7604,7 @@ MonoBehaviour:
   luaBindingName: flowchart
 --- !u!114 &301439353
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -22805,7 +22809,7 @@ MonoBehaviour:
   nameColor: {r: 0.6886792, g: 0, b: 0.67585105, a: 1}
   soundEffect: {fileID: 8300000, guid: 77b1e03f472da9e4d83771c6c2fe8ca6, type: 3}
   portraits:
-  - {fileID: 21300000, guid: 784998b925728c644aa2fe2ed3253348, type: 3}
+  - {fileID: 21300000, guid: ea8f56c43254d41728f5ac4e8299b6c9, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: Protagonista con Mascara de Buho
@@ -41351,13 +41355,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c7ba65ad85c2834a9096151e47a2a76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  duracionLoop: 100
+  duracionLoop: 30
   tiempo: 0
   campanaSonido: {fileID: 708735304}
   camaraCampanada: {fileID: 536560839}
   _bellRingAnim: {fileID: 708735303}
+<<<<<<< Updated upstream
   vidPlayerEnd: {fileID: 0}
   vidCanvas: {fileID: 0}
+=======
+  vidPlayerEnd: {fileID: 1006437060}
+  vidCanvas: {fileID: 140370862}
+>>>>>>> Stashed changes
 --- !u!114 &1199205316
 MonoBehaviour:
   m_ObjectHideFlags: 0

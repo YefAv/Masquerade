@@ -9,7 +9,7 @@ public class SavedData: MonoBehaviour
     public List<int> mapNotes = new List<int>();
     public List<int> clueNotes = new List<int>();
     //public bool firstTime;
-    public int day = 0;
+    public int day = 12;
     public bool firstBell = false;
     public bool didTutorial;
 }
