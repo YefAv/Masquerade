@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: casa 1 panadero
+  m_Name: CASA EXTRA 1
   m_Shader: {fileID: -6465566751694194690, guid: 7fbdd2eef1363f24cad59be0365fe054,
     type: 3}
   m_ShaderKeywords: 
@@ -21,7 +21,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_30DA1E85:
-        m_Texture: {fileID: 2800000, guid: 7550009e06c330b44b7d9d1dddc66ccd, type: 3}
+        m_Texture: {fileID: 2800000, guid: 990cd489c07df2049b015c59f013cc57, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -37,7 +37,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: c60c3382c245e0d4f825576e6a954bc0, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -53,10 +53,10 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_3069E8AA: 0.14
-    - Vector1_3F0FA61C: 0.84
-    - Vector1_50D5B70C: 0.251
-    - Vector1_72FBBEFC: 0.047
+    - Vector1_3069E8AA: 0.671
+    - Vector1_3F0FA61C: 0.22
+    - Vector1_50D5B70C: 0.33
+    - Vector1_72FBBEFC: 0.1
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -79,13 +79,13 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_28EA73D7: {r: 0.43408397, g: 0.10208259, b: 0.6981132, a: 0}
-    - Color_ECE01A92: {r: 0.71817774, g: 0.60817903, b: 0.745283, a: 0}
+    - Color_28EA73D7: {r: 0.7052128, g: 0.5481933, b: 0.9150943, a: 0}
+    - Color_ECE01A92: {r: 0.9339623, g: 0.9339623, b: 0.9339623, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
---- !u!114 &2208263976482353596
+--- !u!114 &6454246337500493351
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

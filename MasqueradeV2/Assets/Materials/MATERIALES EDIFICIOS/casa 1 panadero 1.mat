@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: casa 1 panadero
+  m_Name: casa 1 panadero 1
   m_Shader: {fileID: -6465566751694194690, guid: 7fbdd2eef1363f24cad59be0365fe054,
     type: 3}
   m_ShaderKeywords: 
@@ -21,7 +21,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_30DA1E85:
-        m_Texture: {fileID: 2800000, guid: 7550009e06c330b44b7d9d1dddc66ccd, type: 3}
+        m_Texture: {fileID: 2800000, guid: 00d2246cd9dc1f94c9df11cc66e027e5, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -55,8 +55,8 @@ Material:
     m_Floats:
     - Vector1_3069E8AA: 0.14
     - Vector1_3F0FA61C: 0.84
-    - Vector1_50D5B70C: 0.251
-    - Vector1_72FBBEFC: 0.047
+    - Vector1_50D5B70C: 0.28
+    - Vector1_72FBBEFC: 0
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
