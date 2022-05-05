@@ -46,7 +46,7 @@ public class LockControl : MonoBehaviour
 
         if (result[0] == answer[0] && result[1] == answer[1] && result[2] == answer[2])
         {
-            WinConditionTemp.winConditionCode.SolvePuzzle();
+            //WinConditionTemp.winConditionCode.SolvePuzzle();
             Debug.Log("Congrats! you oppened the non-existing door");
             audioSource.clip = winClip;
             audioSource.Play();

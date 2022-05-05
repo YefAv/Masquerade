@@ -122,7 +122,7 @@ public class SlidingPuzzleLogic : MonoBehaviour {
 		}
 		if (Complete)
 		{
-			WinConditionTemp.winConditionCode.SolvePuzzle();
+			//WinConditionTemp.winConditionCode.SolvePuzzle();
 			Debug.Log("terminadio");
 			audioSource.clip = winClip;
 			audioSource.Play();
