@@ -49,7 +49,7 @@ public class PatternControl : MonoBehaviour
                 audioSource.clip = clips[0];
                 audioSource.Play();
                 winParticles.Play();
-                WinConditionTemp.winConditionCode.SolvePuzzle();
+                //WinConditionTemp.winConditionCode.SolvePuzzle();
                 Debug.Log("Correct Answer");
                 Ganar = true;
                 buck.LogicX();
