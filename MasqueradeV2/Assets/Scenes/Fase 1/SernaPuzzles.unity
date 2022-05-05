@@ -25256,8 +25256,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1d8ebeef75a7f4541a8a8966bfe9f52c, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 3f402b4b20accbf4b9b1eaf773bcc9ca, type: 3}
+  m_Type: 1
   m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 0
@@ -63035,7 +63035,7 @@ PrefabInstance:
     - target: {fileID: 1140390698486948253, guid: 0e76d9ffe2feee940a80cbce9cecf450,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.87
+      value: -9.26
       objectReference: {fileID: 0}
     - target: {fileID: 1140390698486948253, guid: 0e76d9ffe2feee940a80cbce9cecf450,
         type: 3}
@@ -63515,7 +63515,7 @@ PrefabInstance:
     - target: {fileID: 891664936180594572, guid: e813e0c88151fd64e8e2e8154dd9230e,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.17
+      value: -2.02
       objectReference: {fileID: 0}
     - target: {fileID: 891664936180594572, guid: e813e0c88151fd64e8e2e8154dd9230e,
         type: 3}
@@ -63572,6 +63572,16 @@ PrefabInstance:
       propertyPath: data
       value: 
       objectReference: {fileID: 345059952}
+    - target: {fileID: 891664938108056046, guid: e813e0c88151fd64e8e2e8154dd9230e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.45000005
+      objectReference: {fileID: 0}
+    - target: {fileID: 891664938108056046, guid: e813e0c88151fd64e8e2e8154dd9230e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e813e0c88151fd64e8e2e8154dd9230e, type: 3}
 --- !u!4 &7923610038382610213 stripped
@@ -63706,7 +63716,7 @@ PrefabInstance:
     - target: {fileID: 6824532236396741895, guid: 911d790a9c6a29a4d91f72c9c1ccad15,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.05
+      value: 0.83
       objectReference: {fileID: 0}
     - target: {fileID: 6824532236396741895, guid: 911d790a9c6a29a4d91f72c9c1ccad15,
         type: 3}
