@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Boris_Poncho
+  m_Name: Lassie_Sombrero
   m_Shader: {fileID: -6465566751694194690, guid: 7fbdd2eef1363f24cad59be0365fe054,
     type: 3}
   m_ShaderKeywords: 
@@ -34,7 +34,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_30DA1E85:
-        m_Texture: {fileID: 2800000, guid: f6bfbdbfea38e7042b43cfde9af9f152, type: 3}
+        m_Texture: {fileID: 2800000, guid: e29b788108bf20b4086e383206a84ab2, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -68,8 +68,8 @@ Material:
     m_Floats:
     - Vector1_3069E8AA: 0
     - Vector1_3330CF0E: 0.1
-    - Vector1_3F0FA61C: 0.31
-    - Vector1_50D5B70C: 0.28
+    - Vector1_3F0FA61C: -0.22
+    - Vector1_50D5B70C: 0.48
     - Vector1_72FBBEFC: 0
     - _AlphaClip: 0
     - _Blend: 0
