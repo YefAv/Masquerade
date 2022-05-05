@@ -41478,8 +41478,8 @@ MonoBehaviour:
   campanaSonido: {fileID: 708735304}
   camaraCampanada: {fileID: 536560839}
   _bellRingAnim: {fileID: 708735303}
-  vidPlayerEnd: {fileID: 0}
-  vidCanvas: {fileID: 0}
+  vidPlayerEnd: {fileID: 1006437060}
+  vidCanvas: {fileID: 140370862}
 --- !u!114 &1199205316
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -31,7 +31,7 @@ public class OpenDiary : MonoBehaviour
     
     private void Start()
     {
-        data = TimeSystem.timeSyst.saveCode; // REFERENCIA DEL SAVETRIGGER
+        data = SaveTrigger.saveTrigger.saveData;
         //audio = this.gameObject.transform.GetChild(2).GetComponent<AudioSource>();
     }
     void Update()
