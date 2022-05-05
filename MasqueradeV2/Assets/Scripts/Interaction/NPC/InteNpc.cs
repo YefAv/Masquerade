@@ -76,16 +76,16 @@ public class InteNpc : MonoBehaviour, IInteractable
         Brain._brain.CambiarEstado(Brain.EstadosDeJuego.npc); //bug de no me suelta la camara 
         talking = true;
         Talking_();
-        zoom.CameraZooming(45, 5);
-        TimeSystem.timeSyst.runningTime = false;
+        //zoom.CameraZooming(45, 5);
+        TimeSysN.timeSys.tiempoCorriendo = false;
     }
     void stopTalking()
     {
         if (Brain._brain.Estado == Brain.EstadosDeJuego.normal && talking)
         {
             talking = false;
-            TimeSystem.timeSyst.runningTime = true;
-            zoom.CameraZooming(zoom.defaultFov, zoom.defaultSensitivity);
+            TimeSysN.timeSys.tiempoCorriendo = true;
+            //zoom.CameraZooming(zoom.defaultFov, zoom.defaultSensitivity);
         }
     }
 

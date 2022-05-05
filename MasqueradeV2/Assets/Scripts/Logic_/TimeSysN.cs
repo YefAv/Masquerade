@@ -51,7 +51,7 @@ public class TimeSysN : MonoBehaviour
         if (tiempo > duracionLoop)
         {
             contadorCampanas++;
-            tiempo = 0;
+            Debug.Log("paso 1");
             _bellRingAnim.bellRing(); // animación
             StartCoroutine(ActivarYDesactivarCamara());
             FungusReactions.fungusCode.FirstBellText(SaveTrigger.saveTrigger.saveData.firstBell);
@@ -63,6 +63,8 @@ public class TimeSysN : MonoBehaviour
             {
                 StartCoroutine(ReinicioEscena());
             }
+            
+            tiempo = 0;
         }
     }
 
@@ -73,6 +75,7 @@ public class TimeSysN : MonoBehaviour
         yield return new WaitForSeconds(4);
         camaraCampanada.SetActive(false);
         Brain._brain.CambiarEstado(Brain.EstadosDeJuego.normal);
+        Debug.Log("paso 1");
     }
 
 
