@@ -21,7 +21,7 @@ public class Hint : MonoBehaviour, IInteractable
         pistas = GameObject.FindGameObjectWithTag("Pistas").gameObject;
         diario = GameObject.FindGameObjectWithTag("DiaryLogic").gameObject.transform.GetChild(0).gameObject;
         diaryAnim = DiaryAnimation.diaryAnim;
-        data = TimeSystem.timeSyst.saveCode;
+        data = SaveTrigger.saveTrigger.saveData;
     }
     public void Select()
     {

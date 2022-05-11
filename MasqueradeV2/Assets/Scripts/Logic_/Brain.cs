@@ -96,6 +96,7 @@ public class Brain : MonoBehaviour
                 PlayerStateMachine.playerStateMachine.playerState = PlayerStateMachine.PlayerMovState.FreezeMov;
                 PlayerStateMachine.playerStateMachine.cameraState = PlayerStateMachine.CameraState.Diary;
                 OpenDiary.openDiaryCode.usability = true;
+                Debug.Log("diario HIJUEPUTAAAA");
                 //hud hora 
                 
                 break;
