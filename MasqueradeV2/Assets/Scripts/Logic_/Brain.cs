@@ -38,6 +38,7 @@ public class Brain : MonoBehaviour
 
     private void Start()
     {
+        //estado = EstadosDeJuego.intro;
 
         if (restart)
         {
@@ -157,5 +158,6 @@ public class Brain : MonoBehaviour
     {
         Debug.Log("ora si krnaaaal");
         CambiarEstado(EstadosDeJuego.normal);
+        FungusReactions.fungusCode.tpToStart();
     }
 }

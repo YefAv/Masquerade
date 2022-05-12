@@ -11,7 +11,7 @@ public class SaveTrigger : MonoBehaviour
 
     public static SaveTrigger saveTrigger;
 
-    private void Start()
+    private void Awake()
     {
         if (saveTrigger != null)
             Destroy(gameObject);
