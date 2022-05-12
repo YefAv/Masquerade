@@ -1890,7 +1890,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: Joss
   nameColor: {r: 0.10840156, g: 0.26415092, b: 0.19486077, a: 1}
-  soundEffect: {fileID: 8300000, guid: 33402e37325b14c40975f3e8f4ed61b5, type: 3}
+  soundEffect: {fileID: 8300000, guid: f291e4e7f0e59d84cb2c752f7a3bff3e, type: 3}
   portraits: []
   portraitsFace: 0
   setSayDialog: {fileID: 0}
@@ -3459,7 +3459,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: Buck
   nameColor: {r: 0.9716981, g: 0.28737473, b: 0, a: 1}
-  soundEffect: {fileID: 8300000, guid: d4d51f91283518a44baa19001d8ed2cd, type: 3}
+  soundEffect: {fileID: 8300000, guid: 4b33a39051b3ddc44bced1fed504ebdb, type: 3}
   portraits: []
   portraitsFace: 0
   setSayDialog: {fileID: 0}
@@ -8231,7 +8231,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: Baldy
   nameColor: {r: 0.8867924, g: 0.44552374, b: 0.14640439, a: 1}
-  soundEffect: {fileID: 8300000, guid: 33402e37325b14c40975f3e8f4ed61b5, type: 3}
+  soundEffect: {fileID: 8300000, guid: f291e4e7f0e59d84cb2c752f7a3bff3e, type: 3}
   portraits: []
   portraitsFace: 0
   setSayDialog: {fileID: 0}
@@ -11639,7 +11639,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: Meek
   nameColor: {r: 0.36171755, g: 0.8301887, b: 0.043075833, a: 1}
-  soundEffect: {fileID: 8300000, guid: d4d51f91283518a44baa19001d8ed2cd, type: 3}
+  soundEffect: {fileID: 8300000, guid: d23296def46d6cd43a9b2323424baf77, type: 3}
   portraits: []
   portraitsFace: 0
   setSayDialog: {fileID: 0}
@@ -11764,7 +11764,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: Leon
   nameColor: {r: 0.7647059, g: 0.44313726, b: 0.4463495, a: 1}
-  soundEffect: {fileID: 8300000, guid: 33402e37325b14c40975f3e8f4ed61b5, type: 3}
+  soundEffect: {fileID: 8300000, guid: f291e4e7f0e59d84cb2c752f7a3bff3e, type: 3}
   portraits: []
   portraitsFace: 0
   setSayDialog: {fileID: 0}
@@ -21140,7 +21140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 415277144}
+  selectedFlowchart: {fileID: 1982509804}
 --- !u!4 &602568057
 Transform:
   m_ObjectHideFlags: 1
@@ -21674,7 +21674,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: Lassie
   nameColor: {r: 0.74454373, g: 0.764151, b: 0.44263083, a: 1}
-  soundEffect: {fileID: 8300000, guid: 33402e37325b14c40975f3e8f4ed61b5, type: 3}
+  soundEffect: {fileID: 8300000, guid: 6db7e178081937e47af291ef4b85bef9, type: 3}
   portraits: []
   portraitsFace: 0
   setSayDialog: {fileID: 0}
@@ -22433,7 +22433,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: Porky
   nameColor: {r: 1, g: 0.6308285, b: 0, a: 1}
-  soundEffect: {fileID: 8300000, guid: d4d51f91283518a44baa19001d8ed2cd, type: 3}
+  soundEffect: {fileID: 8300000, guid: 4b33a39051b3ddc44bced1fed504ebdb, type: 3}
   portraits: []
   portraitsFace: 0
   setSayDialog: {fileID: 0}
@@ -22811,7 +22811,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: Penny
   nameColor: {r: 0.9150943, g: 0.42733178, b: 0.8286757, a: 1}
-  soundEffect: {fileID: 8300000, guid: d4d51f91283518a44baa19001d8ed2cd, type: 3}
+  soundEffect: {fileID: 8300000, guid: d23296def46d6cd43a9b2323424baf77, type: 3}
   portraits: []
   portraitsFace: 0
   setSayDialog: {fileID: 0}
@@ -23204,7 +23204,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: Lo
   nameColor: {r: 0.6886792, g: 0, b: 0.67585105, a: 1}
-  soundEffect: {fileID: 8300000, guid: 77b1e03f472da9e4d83771c6c2fe8ca6, type: 3}
+  soundEffect: {fileID: 8300000, guid: 6485209109659684987bf14e46868ea7, type: 3}
   portraits:
   - {fileID: 21300000, guid: 784998b925728c644aa2fe2ed3253348, type: 3}
   portraitsFace: 0
@@ -26539,7 +26539,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: Axo
   nameColor: {r: 0.8867924, g: 0.44552374, b: 0.14640439, a: 1}
-  soundEffect: {fileID: 8300000, guid: 33402e37325b14c40975f3e8f4ed61b5, type: 3}
+  soundEffect: {fileID: 8300000, guid: f291e4e7f0e59d84cb2c752f7a3bff3e, type: 3}
   portraits: []
   portraitsFace: 0
   setSayDialog: {fileID: 0}
@@ -44094,7 +44094,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: Bern
   nameColor: {r: 0.6419434, g: 0.8962264, b: 0, a: 1}
-  soundEffect: {fileID: 8300000, guid: d4d51f91283518a44baa19001d8ed2cd, type: 3}
+  soundEffect: {fileID: 8300000, guid: 4b33a39051b3ddc44bced1fed504ebdb, type: 3}
   portraits: []
   portraitsFace: 0
   setSayDialog: {fileID: 0}
@@ -53883,7 +53883,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: Octu
   nameColor: {r: 0.033018887, g: 0.10663462, b: 1, a: 1}
-  soundEffect: {fileID: 8300000, guid: d4d51f91283518a44baa19001d8ed2cd, type: 3}
+  soundEffect: {fileID: 8300000, guid: 4b33a39051b3ddc44bced1fed504ebdb, type: 3}
   portraits: []
   portraitsFace: 0
   setSayDialog: {fileID: 0}
@@ -54797,7 +54797,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: Boris
   nameColor: {r: 0.16745284, g: 0.2516589, b: 0.5, a: 1}
-  soundEffect: {fileID: 8300000, guid: 33402e37325b14c40975f3e8f4ed61b5, type: 3}
+  soundEffect: {fileID: 8300000, guid: 4b33a39051b3ddc44bced1fed504ebdb, type: 3}
   portraits: []
   portraitsFace: 0
   setSayDialog: {fileID: 0}
@@ -57065,7 +57065,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1763290336
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59591,7 +59591,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: Shelby
   nameColor: {r: 0.16838734, g: 0.78788537, b: 0.8301887, a: 1}
-  soundEffect: {fileID: 8300000, guid: d4d51f91283518a44baa19001d8ed2cd, type: 3}
+  soundEffect: {fileID: 8300000, guid: 4b33a39051b3ddc44bced1fed504ebdb, type: 3}
   portraits: []
   portraitsFace: 0
   setSayDialog: {fileID: 0}
@@ -63751,7 +63751,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nameText: Caronte
   nameColor: {r: 0.4245283, g: 0.4245283, b: 0.4245283, a: 1}
-  soundEffect: {fileID: 8300000, guid: f89366482e95c4543842e21a489eac99, type: 3}
+  soundEffect: {fileID: 8300000, guid: 86ea2187168e7124c96f3cad8b82542f, type: 3}
   portraits:
   - {fileID: 10913, guid: 0000000000000000f000000000000000, type: 0}
   portraitsFace: 0
