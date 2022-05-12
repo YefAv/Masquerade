@@ -33,7 +33,7 @@ public class FungusReactions : MonoBehaviour
 
     private void Start()
     {
-        PlayAnimaticOneTime();
+        //PlayAnimaticOneTime();
     }
 
     public void tpToStart() //this method will be deleted

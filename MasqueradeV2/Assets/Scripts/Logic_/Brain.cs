@@ -2,13 +2,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Playables;
 
 public class Brain : MonoBehaviour
 {
     public bool tiempoNormal;
     public static Brain _brain;
     [SerializeField] private bool restart;
-    
+    [SerializeField] private PlayableDirector directorPlayer;
+    [SerializeField] private GameObject playerCam, cinematicCam;
+
 
     public enum EstadosDeJuego
     {
@@ -17,7 +20,8 @@ public class Brain : MonoBehaviour
         cinematica,
         diario,
         npc,
-        iglesia
+        iglesia,
+        intro
     }
 
     private EstadosDeJuego estado;
@@ -27,10 +31,13 @@ public class Brain : MonoBehaviour
         get => estado;
     }
 
-    private void Start()
+    private void Awake()
     {
         _brain = this;
-        //SaveTrigger.saveTrigger.saveData.day = 4;
+    }
+
+    private void Start()
+    {
 
         if (restart)
         {
@@ -47,13 +54,12 @@ public class Brain : MonoBehaviour
         {
             estado = EstadosDeJuego.normal;
             FungusReactions.fungusCode.tpToStart();
-            Debug.Log("mi perro si estoy X2");
         }
         else
         {
-            Debug.Log("mi perro si estoy");
-            estado = EstadosDeJuego.tutorial; // o cinemática
-            FungusReactions.fungusCode.PlayAnimaticOneTime();
+            estado = EstadosDeJuego.intro;
+            directorPlayer.Play();
+            //FungusReactions.fungusCode.PlayAnimaticOneTime();
             //Correr cinemática y al terminar dialogo fungus
         }
     }
@@ -69,6 +75,8 @@ public class Brain : MonoBehaviour
                 PlayerStateMachine.playerStateMachine.playerState = PlayerStateMachine.PlayerMovState.NormalMov;
                 PlayerStateMachine.playerStateMachine.cameraState = PlayerStateMachine.CameraState.normalCam;
                 OpenDiary.openDiaryCode.usability = true;
+                cinematicCam.SetActive(false);
+                playerCam.SetActive(true);
                 //hud codigos tuto
 
                 break;
@@ -78,6 +86,8 @@ public class Brain : MonoBehaviour
                 PlayerStateMachine.playerStateMachine.playerState = PlayerStateMachine.PlayerMovState.NormalMov;
                 PlayerStateMachine.playerStateMachine.cameraState = PlayerStateMachine.CameraState.normalCam;
                 OpenDiary.openDiaryCode.usability = true;
+                cinematicCam.SetActive(false);
+                playerCam.SetActive(true);
                 //hud completo
                 
                 break;
@@ -87,6 +97,8 @@ public class Brain : MonoBehaviour
                 PlayerStateMachine.playerStateMachine.playerState = PlayerStateMachine.PlayerMovState.FreezeMov;
                 PlayerStateMachine.playerStateMachine.cameraState = PlayerStateMachine.CameraState.FreezeCam;
                 OpenDiary.openDiaryCode.usability = false;
+                cinematicCam.SetActive(false);
+                playerCam.SetActive(true);
                 //sin hud
                 
                 break;
@@ -96,6 +108,8 @@ public class Brain : MonoBehaviour
                 PlayerStateMachine.playerStateMachine.playerState = PlayerStateMachine.PlayerMovState.FreezeMov;
                 PlayerStateMachine.playerStateMachine.cameraState = PlayerStateMachine.CameraState.Diary;
                 OpenDiary.openDiaryCode.usability = true;
+                cinematicCam.SetActive(false);
+                playerCam.SetActive(true);
                 Debug.Log("diario HIJUEPUTAAAA");
                 //hud hora 
                 
@@ -106,6 +120,8 @@ public class Brain : MonoBehaviour
                 PlayerStateMachine.playerStateMachine.playerState = PlayerStateMachine.PlayerMovState.FreezeMov;
                 PlayerStateMachine.playerStateMachine.cameraState = PlayerStateMachine.CameraState.FreezeCam;
                 OpenDiary.openDiaryCode.usability = false;
+                cinematicCam.SetActive(false);
+                playerCam.SetActive(true);
                 //sin hud
 
                 break;
@@ -115,8 +131,19 @@ public class Brain : MonoBehaviour
                 PlayerStateMachine.playerStateMachine.playerState = PlayerStateMachine.PlayerMovState.NormalMov;
                 PlayerStateMachine.playerStateMachine.cameraState = PlayerStateMachine.CameraState.normalCam;
                 OpenDiary.openDiaryCode.usability = true;
+                cinematicCam.SetActive(false);
+                playerCam.SetActive(true);
                 //hud completo
 
+                break;
+            case EstadosDeJuego.intro:
+                tiempoNormal = true;
+                TimeSysN.timeSys.tiempoCorriendo = false;
+                PlayerStateMachine.playerStateMachine.playerState = PlayerStateMachine.PlayerMovState.FreezeMov;
+                PlayerStateMachine.playerStateMachine.cameraState = PlayerStateMachine.CameraState.FreezeCam;
+                OpenDiary.openDiaryCode.usability = false;
+                cinematicCam.SetActive(true);
+                playerCam.SetActive(false);
                 break;
         }
     }
@@ -124,5 +151,11 @@ public class Brain : MonoBehaviour
     public void CambiarEstado(EstadosDeJuego estado_)
     {
         estado = estado_;
+    }
+
+    public void FinDeCinematica()
+    {
+        Debug.Log("ora si krnaaaal");
+        CambiarEstado(EstadosDeJuego.normal);
     }
 }
