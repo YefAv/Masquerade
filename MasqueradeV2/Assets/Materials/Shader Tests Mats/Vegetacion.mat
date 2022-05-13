@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-3829627246653602305
+--- !u!114 &-6798421204784913264
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Octu_Mascara
-  m_Shader: {fileID: -6465566751694194690, guid: c91db79bee38cf84d952d592e43017d6,
+  m_Name: Vegetacion
+  m_Shader: {fileID: -6465566751694194690, guid: 4e187afed01ad354da947b72a9b9aa2e,
     type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
@@ -33,12 +33,8 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - Texture2D_30DA1E85:
-        m_Texture: {fileID: 2800000, guid: 2498a6b0a780abb4ea7a4ebdd486f6ad, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - Texture2D_E7B18022:
-        m_Texture: {fileID: 2800000, guid: 2498a6b0a780abb4ea7a4ebdd486f6ad, type: 3}
+    - Texture2D_9B56E86A:
+        m_Texture: {fileID: 2800000, guid: 9af04e3e5fb2c334592b52a38df7cd69, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -70,16 +66,16 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - Vector1_229975D6: 1
-    - Vector1_3069E8AA: 0
-    - Vector1_3330CF0E: 0.1
-    - Vector1_3F0FA61C: 0
-    - Vector1_50D5B70C: 0.1
-    - Vector1_6CDFAE37: 0.5
-    - Vector1_72FBBEFC: 0
-    - Vector1_8FB6E431: 0
-    - Vector1_A9145130: 5
-    - Vector1_B0A00DC0: 0
+    - Vector1_1F72093A: 0
+    - Vector1_29556F0A: 0.62
+    - Vector1_29775B67: 0
+    - Vector1_3D1CA595: 0.01
+    - Vector1_45CC7A4C: 0.1
+    - Vector1_516544C1: 0.455
+    - Vector1_7338B200: 0.47
+    - Vector1_76FBE0F0: 0.01
+    - Vector1_78D2050C: 6.38
+    - Vector1_B41C256: 1
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -102,10 +98,8 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - Color_28EA73D7: {r: 1, g: 0, b: 0.7825947, a: 0}
-    - Color_ACB5F19D: {r: 0, g: 0, b: 0, a: 0}
-    - Color_ECE01A92: {r: 0.55283767, g: 0.46431115, b: 0.6981132, a: 0}
-    - Color_EE7A09A2: {r: 0, g: 0, b: 0, a: 0}
+    - Color_37A4407C: {r: 0, g: 0, b: 0, a: 1}
+    - Color_B17A90B: {r: 0.8018868, g: 0.2988163, b: 0.5780395, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
